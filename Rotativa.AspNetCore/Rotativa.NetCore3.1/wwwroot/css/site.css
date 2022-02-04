@@ -1,0 +1,34 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    margin-top: -5%;
+}
+
+.table-title-report {
+    width: 100%;
+    background-color: #A3CFEC;
+}
+
+.td-iconReport {
+    width: 20%;
+    padding: 1%;
+}
+
+.img-iconReport {
+    width: 75px;
+}
+
+thead {
+    background-color: #A3CFEC;
+    border-bottom: solid;
+    border-bottom-color: black;
+    font-size: 140%;
+}
