@@ -36,7 +36,12 @@ namespace Rotativa.NetCore2_1
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default", 
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
 
             RotativaConfiguration.Setup(env, @"lib\rotativa-aspnetcore");
         }
