@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Rotativa.AspNetCore;
 
-namespace Rotativa.NetCore2._1
+namespace Rotativa.NetCore2_1
 {
     public class Startup
     {

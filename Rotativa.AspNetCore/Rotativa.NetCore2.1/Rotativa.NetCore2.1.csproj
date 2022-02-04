@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>9e8cda44-83ea-4d65-8c29-336543584084</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <RootNamespace>Rotativa.NetCore2._1</RootNamespace>
+    <RootNamespace>Rotativa.NetCore2_1</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
