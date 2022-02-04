@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.Net5", "Rotativa.Net5\Rotativa.Net5.csproj", "{E82DABB4-84DB-4BA1-9107-871EC5B38223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotativa.NetCore2.1", "Rotativa.NetCore2.1\Rotativa.NetCore2.1.csproj", "{7D9A64E2-ACE6-4023-983E-28005D83521B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9A64E2-ACE6-4023-983E-28005D83521B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9A64E2-ACE6-4023-983E-28005D83521B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9A64E2-ACE6-4023-983E-28005D83521B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9A64E2-ACE6-4023-983E-28005D83521B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
