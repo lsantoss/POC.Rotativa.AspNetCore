@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Rotativa.AspNetCore;
 
-namespace Rotativa
+namespace Rotativa.Net5
 {
     public class Startup
     {

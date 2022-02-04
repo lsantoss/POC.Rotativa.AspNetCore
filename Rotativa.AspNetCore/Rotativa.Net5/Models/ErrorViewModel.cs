@@ -1,4 +1,4 @@
-﻿namespace Rotativa.Models
+﻿namespace Rotativa.Net5.Models
 {
     public class ErrorViewModel
     {

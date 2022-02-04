@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Rotativa
+namespace Rotativa.Net5
 {
     public class Program
     {

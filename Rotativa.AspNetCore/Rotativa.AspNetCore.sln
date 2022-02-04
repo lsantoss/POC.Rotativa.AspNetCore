@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotativa", "Rotativa\Rotativa.csproj", "{D5B09F9E-C345-4BB3-A6D5-F8970A4C3387}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.Net5", "Rotativa.Net5\Rotativa.Net5.csproj", "{E82DABB4-84DB-4BA1-9107-871EC5B38223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D5B09F9E-C345-4BB3-A6D5-F8970A4C3387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5B09F9E-C345-4BB3-A6D5-F8970A4C3387}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5B09F9E-C345-4BB3-A6D5-F8970A4C3387}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5B09F9E-C345-4BB3-A6D5-F8970A4C3387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
