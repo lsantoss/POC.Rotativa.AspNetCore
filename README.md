@@ -1,7 +1,7 @@
 # POC.Rotativa.AspNetCore
 
 <h2>Aplicação:</h2>
-<p>Essa aplicação contém um exemplo básico uso da biblioteca Rotativa.AspNetCore, que converte uma view estática ou com dados dinâmicos em .pdf.</p>
+<p>Essa aplicação contém um exemplo de uso da biblioteca Rotativa.AspNetCore, que converte uma view estática ou com dados dinâmicos em .pdf.</p>
 
 ***
 
