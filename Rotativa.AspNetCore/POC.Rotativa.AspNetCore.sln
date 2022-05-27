@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.Net5", "Rotativa.Net5\Rotativa.Net5.csproj", "{E82DABB4-84DB-4BA1-9107-871EC5B38223}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.NetCore2.1", "Rotativa.NetCore2.1\Rotativa.NetCore2.1.csproj", "{7D9A64E2-ACE6-4023-983E-28005D83521B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotativa.NetCore3.1", "Rotativa.NetCore3.1\Rotativa.NetCore3.1.csproj", "{DC7DC502-95C3-4696-BD06-766CC2CFB636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.NetCore3.1", "Rotativa.NetCore3.1\Rotativa.NetCore3.1.csproj", "{DC7DC502-95C3-4696-BD06-766CC2CFB636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotativa.Net6", "Rotativa.Net6\Rotativa.Net6.csproj", "{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.Net6", "Rotativa.Net6\Rotativa.Net6.csproj", "{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POC.Rotativa.AspNetCore.Net5", "POC.Rotativa.AspNetCore.Net5\POC.Rotativa.AspNetCore.Net5.csproj", "{14E0A720-2B01-40CB-BC3A-EC296F0A049D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E82DABB4-84DB-4BA1-9107-871EC5B38223}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7D9A64E2-ACE6-4023-983E-28005D83521B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7D9A64E2-ACE6-4023-983E-28005D83521B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9A64E2-ACE6-4023-983E-28005D83521B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E0A720-2B01-40CB-BC3A-EC296F0A049D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E0A720-2B01-40CB-BC3A-EC296F0A049D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E0A720-2B01-40CB-BC3A-EC296F0A049D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E0A720-2B01-40CB-BC3A-EC296F0A049D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Rotativa.AspNetCore;
 
-namespace Rotativa.Net5
+namespace POC.Rotativa.AspNetCore.Net5
 {
     public class Startup
     {
@@ -45,7 +45,7 @@ namespace Rotativa.Net5
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
 
-            RotativaConfiguration.Setup(env.WebRootPath, @"lib\rotativa-aspnetcore");
+            RotativaConfiguration.Setup(env.WebRootPath, @"lib/rotativa-aspnetcore");
         }
     }
 }

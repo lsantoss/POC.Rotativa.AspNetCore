@@ -1,4 +1,4 @@
-﻿namespace Rotativa.Net5.Models
+﻿namespace POC.Rotativa.AspNetCore.Net5.Models
 {
     public class Client
     {

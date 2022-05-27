@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using POC.Rotativa.AspNetCore.Net5.Models;
 using Rotativa.AspNetCore;
-using Rotativa.Net5.Models;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Rotativa.Net5.Controllers
+namespace POC.Rotativa.AspNetCore.Net5.Controllers
 {
     public class HomeController : Controller
     {
