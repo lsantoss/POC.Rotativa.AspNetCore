@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using POC.Rotativa.AspNetCore.Net6.Models;
 using Rotativa.AspNetCore;
-using Rotativa.Net6.Models;
 using System.Diagnostics;
 
-namespace Rotativa.Net6.Controllers
+namespace POC.Rotativa.AspNetCore.Net6.Controllers
 {
     public class HomeController : Controller
     {

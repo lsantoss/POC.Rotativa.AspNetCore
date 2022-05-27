@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Rotativa.Net6": {
+    "POC.Rotativa.AspNetCore.Net6": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
@@ -23,13 +23,6 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    },
-    "Docker": {
-      "commandName": "Docker",
-      "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "publishAllPorts": true,
-      "useSSL": true
     }
   }
 }

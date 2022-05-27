@@ -24,6 +24,6 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
 });
 
-RotativaConfiguration.Setup(app.Environment.WebRootPath, @"lib\rotativa-aspnetcore");
+RotativaConfiguration.Setup(app.Environment.WebRootPath, @"lib/rotativa-aspnetcore");
 
 app.Run();

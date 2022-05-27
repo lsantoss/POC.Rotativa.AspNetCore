@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.NetCore2.1", "Rota
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.NetCore3.1", "Rotativa.NetCore3.1\Rotativa.NetCore3.1.csproj", "{DC7DC502-95C3-4696-BD06-766CC2CFB636}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.Net6", "Rotativa.Net6\Rotativa.Net6.csproj", "{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POC.Rotativa.AspNetCore.Net5", "POC.Rotativa.AspNetCore.Net5\POC.Rotativa.AspNetCore.Net5.csproj", "{14E0A720-2B01-40CB-BC3A-EC296F0A049D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POC.Rotativa.AspNetCore.Net6", "POC.Rotativa.AspNetCore.Net6\POC.Rotativa.AspNetCore.Net6.csproj", "{496C32E1-FADA-442B-AB19-B09E4474B002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{DC7DC502-95C3-4696-BD06-766CC2CFB636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC7DC502-95C3-4696-BD06-766CC2CFB636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC7DC502-95C3-4696-BD06-766CC2CFB636}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BBD65D7-D28F-45E7-BE06-E0F795CC56A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{14E0A720-2B01-40CB-BC3A-EC296F0A049D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{14E0A720-2B01-40CB-BC3A-EC296F0A049D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14E0A720-2B01-40CB-BC3A-EC296F0A049D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14E0A720-2B01-40CB-BC3A-EC296F0A049D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496C32E1-FADA-442B-AB19-B09E4474B002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496C32E1-FADA-442B-AB19-B09E4474B002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496C32E1-FADA-442B-AB19-B09E4474B002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496C32E1-FADA-442B-AB19-B09E4474B002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
