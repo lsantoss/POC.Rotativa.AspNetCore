@@ -1,4 +1,4 @@
-# Rotativa.AspNetCore
+# POC.Rotativa.AspNetCore
 
 <h3>Aplicação:</h3>
 <p>Essa aplicação contém um exemplo de geração de .pdf através de uma view com estilo e dados dinâmicos.</p>
