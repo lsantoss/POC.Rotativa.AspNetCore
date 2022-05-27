@@ -1,19 +1,26 @@
 # POC.Rotativa.AspNetCore
 
-<h3>Aplicação:</h3>
+<h2>Aplicação:</h2>
 <p>Essa aplicação contém um exemplo básico uso da biblioteca Rotativa.AspNetCore, que converte uma view estática ou com dados dinâmicos em .pdf.</p>
 
-<br/>
+***
 
-<p>Biblioteca: Rotativa.AspNetCore</p>
-<p>Frameworks: .Net Core 2.1</p>
-<p>Frameworks: .Net Core 2.1</p>
-<p>Frameworks: .Net 5</p>
-<p>Frameworks: .Net 6</p>
+<h2>Bibliotecas:</h2>
+<ul>
+  <li>Rotativa.AspNetCore</li>
+</ul>
 
-<br/>
+<h2>Frameworks:</h2>
+<ul type="disc">
+  <li>.Net Core 2.1</li>
+  <li>.Net Core 2.1</li>
+  <li>.Net 5</li>
+  <li>.Net 6</li>
+</ul>
 
-<h3>Como configurar e usar:</h3>
+***
+
+<h2>Como configurar e usar:</h2>
 <ol type="number">
   <li>Criar um projeto <b>Web Asp.Net Core</b></li>
   
@@ -21,11 +28,17 @@
   
   <li>Criar uma pasta em <b>"wwwroot"</b> chamada <b>"rotativa-aspnetcore"</b></li>  
   
-  <li>Copiar os seguinte arquivos para a pasta <b>"wwwroot/rotativa-aspnetcore"</b>: help-wkhtmltoimage.txt, help-wkhtmltopdf.txt, wkhtmltoimage.exe, wkhtmltopdf.exe</li>
+  <li>Copiar os seguinte arquivos para a pasta <b>"wwwroot/rotativa-aspnetcore"</b>: 
+  <ul type="disc">
+    <li>help-wkhtmltoimage.txt</li>
+    <li>help-wkhtmltopdf.txt</li>
+    <li>wkhtmltoimage.exe</li>
+    <li>wkhtmltopdf.exe</li>
+  </ul>
   
   <li>    
     <b>Observação:</b> Para cada versão do .Net deve ser feita uma configuração do MVC e Environment <br/>    
-    No arquivo Startup.cs em Configure, adicione a linha de código: <b>RotativaConfiguration.Setup(env);</b><br/><br/>    
+    No arquivo Startup.cs em Configure, adicione a linha de código: <b>"RotativaConfiguration.Setup(env.WebRootPath, @"lib/rotativa-aspnetcore");"</b><br/><br/>    
     <blockquote>
       
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -49,7 +62,7 @@
                 template: "{controller=Home}/{action=Index}/{id?}");
         });
 
-        RotativaConfiguration.Setup(env);
+        RotativaConfiguration.Setup(env.WebRootPath, @"lib/rotativa-aspnetcore");
     }
     
    </blockquote>
