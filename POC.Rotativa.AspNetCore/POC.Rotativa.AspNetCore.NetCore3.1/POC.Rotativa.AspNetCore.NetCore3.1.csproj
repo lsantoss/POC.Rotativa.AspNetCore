@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Rotativa.NetCore3_1</RootNamespace>
+    <RootNamespace>POC.Rotativa.AspNetCore.NetCore3_1</RootNamespace>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
     <UserSecretsId>1e8bc34a-88c7-4fe2-85c1-a837326747f1</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>

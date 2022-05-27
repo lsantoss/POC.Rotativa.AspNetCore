@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Rotativa.AspNetCore;
 
-namespace Rotativa.NetCore2_1
+namespace POC.Rotativa.AspNetCore.NetCore2_1
 {
     public class Startup
     {
@@ -39,11 +39,11 @@ namespace Rotativa.NetCore2_1
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "default", 
+                    name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            RotativaConfiguration.Setup(env, @"lib\rotativa-aspnetcore");
+            RotativaConfiguration.Setup(env, @"lib/rotativa-aspnetcore");
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Rotativa.NetCore2_1
+namespace POC.Rotativa.AspNetCore.NetCore2_1
 {
     public class Program
     {

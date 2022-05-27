@@ -1,4 +1,4 @@
-﻿namespace Rotativa.NetCore2_1.Models
+﻿namespace POC.Rotativa.AspNetCore.NetCore2_1.Models
 {
     public class ErrorViewModel
     {
