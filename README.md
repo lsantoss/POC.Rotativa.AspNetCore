@@ -5,19 +5,19 @@
 
 ***
 
-<h2>Bibliotecas:</h2>
-<ul>
-  <li>Rotativa.AspNetCore</li>
-</ul>
-
-***
-
 <h2>Frameworks:</h2>
 <ul type="disc">
   <li>.Net Core 2.1</li>
   <li>.Net Core 2.1</li>
   <li>.Net 5</li>
   <li>.Net 6</li>
+</ul>
+
+***
+
+<h2>Bibliotecas (principais):</h2>
+<ul>
+  <li>Rotativa.AspNetCore</li>
 </ul>
 
 ***
