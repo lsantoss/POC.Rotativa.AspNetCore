@@ -10,6 +10,8 @@
   <li>Rotativa.AspNetCore</li>
 </ul>
 
+***
+
 <h2>Frameworks:</h2>
 <ul type="disc">
   <li>.Net Core 2.1</li>
