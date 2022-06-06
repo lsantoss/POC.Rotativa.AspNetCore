@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using POC.Rotativa.AspNetCore.Net6.Models;
 using Rotativa.AspNetCore;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace POC.Rotativa.AspNetCore.Net6.Controllers

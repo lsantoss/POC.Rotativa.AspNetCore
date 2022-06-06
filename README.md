@@ -1,26 +1,23 @@
 # POC.Rotativa.AspNetCore
 
-<h2>Aplicação:</h2>
+## Aplicação:
 <p>Essa aplicação contém um exemplo de uso da biblioteca Rotativa.AspNetCore, que converte uma view estática ou com dados dinâmicos em .pdf.</p>
 
-***
+---
 
-<h2>Frameworks:</h2>
-<ul type="disc">
-  <li>.Net Core 2.1</li>
-  <li>.Net Core 2.1</li>
-  <li>.Net 5</li>
-  <li>.Net 6</li>
-</ul>
+## Frameworks:
+- .Net Core 2.1
+- .Net Core 2.1
+- .Net 5
+- .Net 6
 
-***
+---
 
-<h2>Bibliotecas (principais):</h2>
-<ul>
-  <li>Rotativa.AspNetCore</li>
-</ul>
+## Bibliotecas (principais):
+- Rotativa.AspNetCore
+- Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
 
-***
+---
 
 <h2>Como configurar e usar:</h2>
 <ol type="number">
