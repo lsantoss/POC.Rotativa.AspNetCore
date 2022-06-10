@@ -1,7 +1,8 @@
 # POC.Rotativa.AspNetCore
 
 ## Aplicação:
-<p>Essa aplicação contém um exemplo de uso da biblioteca Rotativa.AspNetCore, que converte uma view estática ou com dados dinâmicos em .pdf.</p>
+
+Essa aplicação contém um exemplo de uso da biblioteca Rotativa.AspNetCore, que converte uma view estática ou com dados dinâmicos em .pdf.
 
 ---
 
@@ -20,18 +21,18 @@
 ---
 
 ## Como configurar e usar:
-1. Criar um projeto **Web Asp.Net Core**
-2. Baixe o pacote **Rotativa.AspNetCore** via NuGet
-3. Criar uma pasta em **wwwroot** chamada **rotativa-aspnetcore**</li>  
+1. Criar um projeto Web Asp.Net Core
+2. Baixe o pacote `Rotativa.AspNetCore` via NuGet
+3. Criar uma pasta em `wwwroot` chamada `rotativa-aspnetcore`</li>  
 4. Copiar os seguinte arquivos para a pasta:
-    - help-wkhtmltoimage.txt
-    - help-wkhtmltopdf.txt
-    - wkhtmltoimage.exe
-    - wkhtmltopdf.exe
+    - `help-wkhtmltoimage.txt`
+    - `help-wkhtmltopdf.txt`
+    - `wkhtmltoimage.exe`
+    - `wkhtmltopdf.exe`
   
 5. **Observação:** Para cada versão do .Net deve ser feita uma configuração do MVC e Environment.
 
-    No arquivo **Startup.cs** em **Configure**, adicione a linha de código: **"RotativaConfiguration.Setup(env.WebRootPath, @"lib/rotativa-aspnetcore");"**
+    No arquivo `Startup.cs` em `Configure`, adicione a linha de código: `RotativaConfiguration.Setup(env.WebRootPath, @"lib/rotativa-aspnetcore");`
 
     ```c#
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -59,7 +60,7 @@
     }
     ```
   
-6. Na Controller use o comando **ViewAsPdf()** para gerar o .pdf a partir de uma view, passandos por parâmetro a view e um objeto caso necessário.
+6. Na Controller use o comando `ViewAsPdf()` para gerar o .pdf a partir de uma view, passandos por parâmetro a view e um objeto caso necessário.
 
     ```c#
     public IActionResult Index()
