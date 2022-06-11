@@ -1,7 +1,7 @@
 # POC.Rotativa.AspNetCore
 
-## Aplicação:
-Essa aplicação contém um exemplo de uso da biblioteca Rotativa.AspNetCore, que converte uma view estática ou com dados dinâmicos em .pdf.
+## Application:
+This application contains an example of using the Rotativa.AspNetCore library, which converts a static view or a view with dynamic data into .pdf.
 
 ---
 
@@ -13,25 +13,35 @@ Essa aplicação contém um exemplo de uso da biblioteca Rotativa.AspNetCore, qu
 
 ---
 
-## Bibliotecas (principais):
+## Libraries (only most important):
 - Rotativa.AspNetCore
 - Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+- Bootstrap
 
 ---
 
-## Como configurar e usar:
-1. Criar um projeto Web Asp.Net Core
-2. Baixe o pacote `Rotativa.AspNetCore` via NuGet
-3. Criar uma pasta em `wwwroot` chamada `rotativa-aspnetcore`</li>  
-4. Copiar os seguinte arquivos para a pasta:
+## How to configure and use:
+1. Create an Asp.Net Core Web Project
+
+2. Download the `Rotativa.AspNetCore` package via NuGet
+
+3. Create a folder in `wwwroot` called `rotativa-aspnetcore`
+
+4. Copy the following files to the folder:
     - `help-wkhtmltoimage.txt`
     - `help-wkhtmltopdf.txt`
     - `wkhtmltoimage.exe`
     - `wkhtmltopdf.exe`
-  
-5. **Observação:** Para cada versão do .Net deve ser feita uma configuração do MVC e Environment.
 
-    No arquivo `Startup.cs` em `Configure`, adicione a linha de código: `RotativaConfiguration.Setup(env.WebRootPath, @"lib/rotativa-aspnetcore");`
+5. **Observation:** For each version of .Net an MVC and Environment configuration must be used.
+    
+    In the `Startup.cs` file, add in the `Configure` method, the line of code:  
+    
+    ```c#
+    RotativaConfiguration.Setup(env.WebRootPath, @"lib/rotativa-aspnetcore");
+    ```
+
+    For example:
 
     ```c#
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -59,7 +69,7 @@ Essa aplicação contém um exemplo de uso da biblioteca Rotativa.AspNetCore, qu
     }
     ```
   
-6. Na Controller use o comando `ViewAsPdf()` para gerar o .pdf a partir de uma view, passandos por parâmetro a view e um objeto caso necessário.
+6. In the Controller, use the `ViewAsPdf()` command to generate the .pdf from a view, passing the view and an object as parameters if necessary.
 
     ```c#
     public IActionResult Index()
