@@ -14,9 +14,9 @@ This application contains an example of using the Rotativa.AspNetCore library, w
 ---
 
 ## Libraries (only most important):
-- Rotativa.AspNetCore
-- Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
 - Bootstrap
+- Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+- Rotativa.AspNetCore
 
 ---
 
@@ -44,25 +44,28 @@ This application contains an example of using the Rotativa.AspNetCore library, w
     For example:
 
     ```c#
-    public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
         if (env.IsDevelopment())
         {
-            app.UseBrowserLink();
             app.UseDeveloperExceptionPage();
         }
         else
         {
             app.UseExceptionHandler("/Home/Error");
+            app.UseHsts();
         }
 
+        app.UseHttpsRedirection();
         app.UseStaticFiles();
 
-        app.UseMvc(routes =>
+        app.UseRouting();
+
+        app.UseAuthorization();
+
+        app.UseEndpoints(endpoints =>
         {
-            routes.MapRoute(
-                name: "default",
-                template: "{controller=Home}/{action=Index}/{id?}");
+            endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
         });
 
         RotativaConfiguration.Setup(env.WebRootPath, @"lib/rotativa-aspnetcore");
