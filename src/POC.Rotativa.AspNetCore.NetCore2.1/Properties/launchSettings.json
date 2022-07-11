@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "POC.Rotativa.AspNetCore.NetCore2_1": {
+    "POC.Rotativa.AspNetCore.NetCore2.1 - Development": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
