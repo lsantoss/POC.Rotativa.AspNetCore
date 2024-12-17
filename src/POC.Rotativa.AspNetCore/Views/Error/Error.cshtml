@@ -1,0 +1,32 @@
+﻿﻿﻿@using POC.Rotativa.AspNetCore.Models.Error
+@model ErrorViewModel
+
+<div class="row mt-5">
+    <div class="col-md-6">
+        <img src="~/images/error.png" alt="robot-error" style="width:80%;" />
+    </div>
+
+    <div class="col-md-6">
+        <h1 class="text-dark">Error.</h1>
+        <h2 class="text-dark">An error occurred while processing your request.</h2>
+
+        <br />
+
+        @if (Model.ShowRequestId)
+        {
+            <p>
+                <strong>Request Id:</strong> <code>@Model.RequestId</code>
+            </p>
+        }
+
+        <h3>Support:</h3>
+
+        <p class="text-justify">
+            For more information, contact our support.
+        </p>
+        <p class="text-justify">
+            <strong>Email:</strong> suporte@domain.com <br />
+            <strong>Telephone:</strong> (32) 3222-5555 <br />
+        </p>
+    </div>
+</div>
